@@ -1,0 +1,11 @@
+ .number-box-container {
+   width: 700px;
+   height: 700px;
+   overflow: auto;
+   margin: auto;
+   background-color: #aaa;
+ }
+
+ .answer-button-container {
+   text-align: center;
+ }

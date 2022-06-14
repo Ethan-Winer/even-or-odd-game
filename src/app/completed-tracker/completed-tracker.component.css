@@ -1,0 +1,12 @@
+p {
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.underline {
+  width: 200px;
+  background-color: teal;
+  height: 10px;
+  margin: auto;
+}

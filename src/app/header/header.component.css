@@ -1,0 +1,14 @@
+.container {
+  padding: 10px 50px;
+  background-color: teal;
+}
+
+.underline {
+  height: 10px;
+  background-color: white;
+  width: 150px;
+}
+
+h1 {
+  display: inline
+}

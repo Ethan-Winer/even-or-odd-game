@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="scoreboard">
+    <h2>Top Scores</h2>
+    <ol>
+      <li *ngFor="let score of scores.slice(0, 5)">{{score}}</li>
+    </ol>
+  </div>
+  <button (click)="emitPlayAgainClicked()">Play Again</button>
+</div>
