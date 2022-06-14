@@ -24,8 +24,8 @@ export class AppComponent {
       this.endGame(null);
     }
 
-    if (this.answerCount == 1) {
-      let average: string = ((Date.now() - this.startTime) / this.answerCount / 1000).toFixed(3);
+    if (this.answerCount == 10) {
+      let average: string = ((Date.now() - this.startTime) / 1000).toFixed(3);
       this.endGame(parseFloat(average));
     }
 
